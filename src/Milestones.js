@@ -47,7 +47,7 @@ const Milestone = ({ magintudeName, numMagnitudeAgo, prevDate, nextDate }) => {
     Math.round(((nextDate.getTime() - Date.now()) * 10) / (86400 * 1e3)) / 10;
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <div className="w-full rounded overflow-hidden shadow-lg m-4">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{magintudeName} Milestones</div>
         <div className="text-gray-700 text-base">
